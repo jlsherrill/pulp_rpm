@@ -256,6 +256,10 @@ A collection of yum plugins supplementing Pulp consumer operations.
 
 
 %changelog
+* Sun Jan 27 2013 Justin Sherrill <jsherril@redhat.com> 2.0.6-0.21.rc
+- releaxing dep. requirements
+ 
+
 * Wed Jan 23 2013 Justin Sherrill <jsherril@redhat.com> 2.0.6-0.20.rc
 - adding dist to release 
 
