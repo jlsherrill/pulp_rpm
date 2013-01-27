@@ -18,7 +18,7 @@
 
 Name: pulp-rpm
 Version: 2.0.6
-Release: 0.20.rc%{?dist}
+Release: 0.21.rc%{?dist}
 Summary: Support for RPM content in the Pulp platform
 Group: Development/Languages
 License: GPLv2
@@ -102,7 +102,7 @@ rm -rf %{buildroot}
 
 
 # define required pulp platform version
-%global pulp_version %{version}-%{release}
+%global pulp_version %{version}
 
 
 # ---- RPM Common --------------------------------------------------------------
